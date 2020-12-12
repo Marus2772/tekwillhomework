@@ -4,22 +4,22 @@ public class Meeting {
     Employee employee;
 
     public void checkPublic() {
-        employee.publicfirstName = "Igor";
+        employee.publicfirstName = "Marius";
         employee.publicdoWork();
     }
 
     public void checkProtected() {
-        employee.protectedfirsName = "Igor";
+        employee.protectedfirsName = "Marius";
         employee.protecteddoWork();
     }
 
     public void checkDefault() {
-        employee.defaultfirstName = "Igor";
+        employee.defaultfirstName = "Marius";
         employee.defaultdoWork();
     }
 
     public void checkPrivate() {
-        // employee.privatefirstName = "Igor";
+        // employee.privatefirstName = "Marius";
         // employee.privatedoWork();
     }
 }
