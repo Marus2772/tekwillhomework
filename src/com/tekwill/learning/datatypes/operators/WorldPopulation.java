@@ -6,8 +6,8 @@ public class WorldPopulation {
     public static long currentWorldPopulation = 7833500000L;
 
     public static float shareInWorldPopulationByCountry(long countryPopulation) {
-        float sharePercentage = (float) countryPopulation / currentWorldPopulation * 100;
-        return sharePercentage;
+        float Percentage = (float) countryPopulation / currentWorldPopulation * 100;
+        return Percentage;
     }
 
     public static void main(String[] args) {
